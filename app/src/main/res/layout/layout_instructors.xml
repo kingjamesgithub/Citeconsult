@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:background="@color/white"
+    android:padding="8dp" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginRight="8dp"
+        android:id="@+id/ivPhoto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/cite"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="FRITZ GERALD NOVENCIDO"
+            android:textSize="20sp"/>
+        <TextView
+            android:textStyle="italic"
+            android:id="@+id/tvEmail"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="FRITZ GERALD NOVENCIDO"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

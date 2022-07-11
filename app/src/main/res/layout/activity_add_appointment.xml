@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".AddAppointmentActivity">
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/cite" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fritz gerald novencido"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/purple_700"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/purple_700">
+
+        <AutoCompleteTextView
+            android:id="@+id/tvTimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:hint="Time"
+            android:inputType="none"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/purple_700"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/purple_700">
+
+        <AutoCompleteTextView
+            android:id="@+id/tvDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:hint="Days"
+            android:inputType="none"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Purpose"
+        android:textColorHint="@color/purple_700"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/purple_700">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPurpose"
+            android:background="@drawable/roundcorner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundcorner"
+            app:backgroundTint="#933030"
+            android:onClick="cancel"
+            android:text="cancel"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundcorner"
+            app:backgroundTint="#4CAF50"
+            android:onClick="submit"
+            android:text="submit"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

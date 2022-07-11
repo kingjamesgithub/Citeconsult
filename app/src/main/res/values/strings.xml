@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CiteConsult</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
+    <string name="sample">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue cursus justo eget egestas. Ut at libero nec turpis eleifend ornare. Vestibulum lorem ligula, congue sed mi id, accumsan vulputate neque. Pellentesque egestas ex mattis rutrum tristique. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum est neque, egestas id justo ut, lacinia tempor libero. Vestibulum quis eros in felis maximus aliquet non tincidunt est. Nunc ligula urna, fringilla eu justo quis, consectetur mattis ex. Etiam urna velit, sollicitudin ac eleifend vel, cursus vel justo. Phasellus elementum lacus quis arcu lobortis, at faucibus nunc imperdiet. Nam eget est id tortor iaculis dignissim. In condimentum venenatis dictum. Aliquam hendrerit luctus accumsan. Praesent mollis ornare justo eu tincidunt.\n</string>
+</resources>

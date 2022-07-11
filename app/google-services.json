@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "274095486089",
+    "project_id": "citeconsult-4fbe9",
+    "storage_bucket": "citeconsult-4fbe9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274095486089:android:a9bce9a178b06f0cf94258",
+        "android_client_info": {
+          "package_name": "com.example.citeconsult"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274095486089-vv8jf99vjagp6ndslcpipc8u2t11gg14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.citeconsult",
+            "certificate_hash": "6e651e14b4e7cddf99ef0209ad95f3a5e6a177e0"
+          }
+        },
+        {
+          "client_id": "274095486089-cg7n7nonlp6sqq95dtivk7qjvd1olhf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMv1CbQ4qwtR072Wn3XD1Nz-BZe-_6LFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274095486089-cg7n7nonlp6sqq95dtivk7qjvd1olhf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
